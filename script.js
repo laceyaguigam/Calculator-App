@@ -1,18 +1,32 @@
 
-
-// buttons for numbers 0-9
-
-
-//button for equal 
+// show numbers after pressed 
+    // id = display
 
 
-//button for +, -, /, *
-
-//show last equation 
 
 //be able to add multiple numbers together including repeat 
 
+
+
+
+
+// buttons for numbers 0-9
+    // id = button-(insert #)
+
+
+
+
+//button for +, -, /, *
+    // id = button-plus,  id = button-minus, id = button-multiply id = button-divide 
+
+
+//button for equal 
+    // id = equals
+
+
+
 //button to clear 
+    // id = button-clear
 
-
-// show numbers after pressed 
+//show last equation 
+    // id = last-result
