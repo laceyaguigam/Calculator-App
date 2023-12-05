@@ -2,7 +2,7 @@
 // show numbers after pressed 
     // id = display
 
-
+const display = document.getElementById("display");
 
 //be able to add multiple numbers together including repeat 
 
@@ -27,6 +27,7 @@
 
 //button to clear 
     // id = button-clear
+
 
 //show last equation 
     // id = last-result
