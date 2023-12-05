@@ -1,8 +1,21 @@
 
+const display = document.getElementById("display");  // for display at the top
+const lastExpression = document.getElementById("last-expression");  // for display at bottom to show the last expression
+
+
+
+
+
 // show numbers after pressed 
     // id = display
 
-const display = document.getElementById("display");
+
+
+
+function showDisplay() {
+
+}
+
 
 //be able to add multiple numbers together including repeat 
 
@@ -23,31 +36,45 @@ const display = document.getElementById("display");
 //button for equal 
     // id = equals
 
+function calculate () {
 
+}
 
 //button to clear 
     // id = button-clear
 
+    function clearDisplay() {
+
+    }
 
 //show last equation 
     // id = last-result
 
-const lastExpression = document.getElementById("last-expression");
+
+
+function showExpression () {
+
+}
+
+
+
+
+
 
 switch() {
-    case +:
+    case "+":
 
         break;
-    case -:
+    case "-":
 
         break;
-    case *:
+    case "*":
 
         break;
-    case /:
+    case "/":
 
         break;
-    case =:
+    case "=":
 
         break;
     default:
