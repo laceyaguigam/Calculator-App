@@ -61,22 +61,27 @@ function showExpression () {
 
 
 
-switch() {
+switch(value1, value2) {
     case "+":
-
+        value1 + value2 == display.value;  //not sure if this is even correct
         break;
+
     case "-":
 
         break;
+
     case "*":
 
         break;
+
     case "/":
 
         break;
+
     case "=":
 
         break;
+
     default:
         console.log("ERROR");
 }
