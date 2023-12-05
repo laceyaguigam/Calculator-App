@@ -1,7 +1,7 @@
 
 const display = document.getElementById("display");  // for display at the top
 const lastExpression = document.getElementById("last-expression");  // for display at bottom to show the last expression
-const button = document.getElementByClassName("calculator-button"); // for each button on the calculator 
+const button = document.getElementsByClassName("calculator-button"); // for each button on the calculator 
 
 
 
@@ -20,7 +20,7 @@ function showDisplay() {
 //will also need a function to update the display 
 
 function displayUpdate() {
-    
+
 }
 
 
