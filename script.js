@@ -9,6 +9,7 @@ const button = document.getElementByClassName("calculator-button"); // for each 
 // show numbers after pressed 
     // id = display
 
+//be able to add multiple numbers together including repeat 
 
 
 
@@ -16,10 +17,11 @@ function showDisplay() {
 
 }
 
+//will also need a function to update the display 
 
-//be able to add multiple numbers together including repeat 
-
-
+function displayUpdate() {
+    
+}
 
 
 
@@ -42,7 +44,7 @@ function calculate () {
 
 //button to clear 
     // id = button-clear
-
+                            // not sure if it works yet
     function clearDisplay() {
         const clear = document.getElementById("button-clear");
         clear.value = " ";
