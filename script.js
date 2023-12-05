@@ -2,7 +2,7 @@
 const display = document.getElementById("display");  // for display at the top
 const lastExpression = document.getElementById("last-expression");  // for display at bottom to show the last expression
 const button = document.getElementsByClassName("calculator-button"); // for each button on the calculator 
-
+const expressionDisplay = document.getElementById("last-result-display");
 
 
 
@@ -26,7 +26,7 @@ function displayUpdate() {
 
 
 // buttons for numbers 0-9
-    // id = button-(insert #)
+    // id = button-(insert #) class for all buttons calculator-button
 
 
 
