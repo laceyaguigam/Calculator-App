@@ -33,3 +33,23 @@ const display = document.getElementById("display");
     // id = last-result
 
 const lastExpression = document.getElementById("last-expression");
+
+switch() {
+    case +:
+
+        break;
+    case -:
+
+        break;
+    case *:
+
+        break;
+    case /:
+
+        break;
+    case =:
+
+        break;
+    default:
+        console.log("ERROR");
+}
