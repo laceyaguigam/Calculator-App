@@ -31,3 +31,5 @@ const display = document.getElementById("display");
 
 //show last equation 
     // id = last-result
+
+const lastExpression = document.getElementById("last-expression");
