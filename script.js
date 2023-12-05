@@ -44,7 +44,8 @@ function calculate () {
     // id = button-clear
 
     function clearDisplay() {
-
+        const clear = document.getElementById("button-clear");
+        clear.value = " ";
     }
 
 //show last equation 
