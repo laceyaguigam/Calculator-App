@@ -23,7 +23,7 @@ function showDisplay() {
 
 function displayUpdate(value) {
     display.value += value;         //not sure if this will work, supposed to add numbers to display to update 
-}
+}                                   // do I have to add the display variable as well?
 
 
 
