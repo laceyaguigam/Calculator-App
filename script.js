@@ -1,7 +1,13 @@
 
 const display = document.getElementById("display");  // for display at the top
 const lastExpression = document.getElementById("last-expression");  // for display at bottom to show the last expression
-const button = document.getElementsByClassName("calculator-button"); // for each button on the calculator 
+const numberButton = document.getElementsByClassName("number-button"); // for each button on the calculator 
+const operatorButton = document.getElementsByClassName("operator-button"); // for each button on the calculator 
+const clearButton = document.getElementsByClassName("clear-button"); // for each button on the calculator 
+const equalButton = document.getElementsByClassName("equal-button"); // for each button on the calculator 
+
+
+
 const expressionDisplay = document.getElementById("last-result-display");  // to show the last expression
 
 let value1 = " "; //variable that will be filled when a number is selected
