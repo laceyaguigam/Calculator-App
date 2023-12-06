@@ -7,7 +7,7 @@ function display (value) {
 
 // this will clear the top display
 function clearDisplay() {
-    const topDisplay = document.getElementsById("display");
+    const topDisplay = document.getElementById("display");   
     topDisplay.value = " ";
 }
 
