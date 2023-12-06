@@ -8,17 +8,22 @@
 
 // All calculator buttons except for “clear” should be disabled after the expression has been evaluated (the “equals” button has been pressed).
 
+     button.setAttribute("disabled", "");
+
  // You should re-enable the buttons after the user clicks the “clear” button again.
+
+    re-enable buttons --> button.removeAttribute("disabled");
 
  // You should keep track of the last expression and the result of the last expression, which should persist after a page refresh.
 
  // You may choose to use local or session storage for this.
 
+   localStorage.setItem() --> takes a key-value pair and adds it to local storage
+    localStorage.getItem() --> takes a key and returns the corresponding value
 
+const bottomDisplay = document.getElementById('last-result-display');
 
-
-
-
+bottomDisplay.innerText = localStorage.getItem('?')
 
 
 //this will show/update the numbers in the display 
@@ -60,7 +65,8 @@ buttons.forEach((button) => {
 });
 
 
-
+//this is the bottom display 
+    //needs to use local storage
 
 
 
