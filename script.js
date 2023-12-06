@@ -22,7 +22,17 @@ function calculate() {
 
 const buttons = document.querySelectorAll(".calculator-button");
 
-
+buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+        if (button.textContent === "C") {
+            clearDisplay();
+        } else if (button.textContent === "=") {
+            calculate();
+        } else {
+            display(button.textContent);
+        }
+    });
+});
 
 
 
