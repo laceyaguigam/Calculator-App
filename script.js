@@ -68,23 +68,27 @@ function showExpression () {
 
 switch(value1, value2) {
     case "+":
-        value1 + value2 == display.value;  //not sure if this is even correct
+        value1 + value2 == result;  //not sure if this is even correct
+        console.log(display.value)
         break;
 
     case "-":
-
+        value1 - value2 == result;  //not sure if this is even correct
+        console.log(display.value)
         break;
 
     case "*":
-
+        value1 * value2 == result;  //not sure if this is even correct
+        console.log(display.value)
         break;
 
     case "/":
-
+        value1 % value2 == result;  //not sure if this is even correct
+        console.log(display.value)
         break;
 
     case "=":
-
+                    //not sure what would go here
         break;
 
     default:
