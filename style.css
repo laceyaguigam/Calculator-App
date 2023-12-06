@@ -67,7 +67,7 @@ h2 {
 	width: 150px;
 }
 
-.calculator-button {
+.clear-button {
 	border-color: lightgrey;
 	border-style: solid;
 	cursor: pointer;
@@ -80,7 +80,7 @@ h2 {
 }
 
 
-.calculator-button {
+.equal-button {
 	border-color: lightgrey;
 	border-style: solid;
 	cursor: pointer;
