@@ -11,6 +11,7 @@ function clearDisplay() {
     topDisplay.value = " ";
 }
 
+//this calculates the expressions 
 function calculate() {
     const topDisplay = document.getElementById('display');
     try {
@@ -19,6 +20,8 @@ function calculate() {
         topDisplay.value = "Error";
     }
 }
+
+//this sets up the buttons 
 
 const buttons = document.querySelectorAll(".calculator-button");
 
