@@ -43,7 +43,20 @@ h2 {
 	width: 600px;
 }
 
-.operator-button {
+.calculator-button {
+	border-color: lightgrey;
+	border-style: solid;
+	cursor: pointer;
+	display: inline;
+	font-size: 4em;
+	line-height: 120px;
+	padding: 20px 40px;
+	height: 150px;
+	width: 150px;
+}
+
+
+/* .operator-button {
 	border-color: lightgrey;
 	border-style: solid;
 	cursor: pointer;
@@ -90,7 +103,7 @@ h2 {
 	padding: 20px 40px;
 	height: 150px;
 	width: 150px;
-}
+} */
 
 .double-width {
 	padding: 20px 30px;
