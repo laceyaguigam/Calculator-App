@@ -43,7 +43,7 @@ h2 {
 	width: 600px;
 }
 
-.calculator-button {
+.operator-button {
 	border-color: lightgrey;
 	border-style: solid;
 	cursor: pointer;
