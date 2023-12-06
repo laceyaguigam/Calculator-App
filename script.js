@@ -20,7 +20,7 @@ function calculate() {
     }
 }
 
-const 
+const buttons = document.querySelectorAll(".calculator-button");
 
 
 
