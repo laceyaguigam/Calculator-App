@@ -11,7 +11,14 @@ function clearDisplay() {
     clear.value = " ";
 }
 
-
+function calculate() {
+    const topDisplay = document.getElementById('display');
+    try {
+        topDisplay.value = eval(topDisplay.value);  //eval will calculate the expression for you!
+    } catch (error) {
+        topDisplay.value = "Error";
+    }
+}
 
 
 
