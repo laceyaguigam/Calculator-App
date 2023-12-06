@@ -2,9 +2,10 @@
 const display = document.getElementById("display");  // for display at the top
 const lastExpression = document.getElementById("last-expression");  // for display at bottom to show the last expression
 const button = document.getElementsByClassName("calculator-button"); // for each button on the calculator 
-const expressionDisplay = document.getElementById("last-result-display");
+const expressionDisplay = document.getElementById("last-result-display");  // to show the last expression
 
-
+let value1 = " "; //variable that will be filled when a number is selected
+let value2 = " "; //variable that will be filled when a number is selected
 
 // show numbers after pressed 
     // id = display
@@ -47,7 +48,7 @@ function calculate () {
                             // not sure if it works yet
     function clearDisplay() {
         const clear = document.getElementById("button-clear");
-        clear.value = " ";
+        clear.value = "";
     }
 
 //show last equation 
