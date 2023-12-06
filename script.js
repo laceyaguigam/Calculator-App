@@ -63,7 +63,7 @@ function calculate () {
     // id = button-clear
                             // not sure if it works yet
     function clearDisplay() {
-        const clear = document.getElementById("button-clear");
+        const clear = document.getElementById("clear-button");
         clear.value = " ";
     }
 
