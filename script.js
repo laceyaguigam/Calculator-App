@@ -22,7 +22,7 @@ function showDisplay() {
 //will also need a function to update the display 
 
 function displayUpdate(value) {
-    display.value += value;         //not sure if this will work
+    display.value += value;         //not sure if this will work, supposed to add numbers to display to update 
 }
 
 
@@ -49,7 +49,7 @@ function calculate () {
                             // not sure if it works yet
     function clearDisplay() {
         const clear = document.getElementById("button-clear");
-        clear.value = "";
+        clear.value = " ";
     }
 
 //show last equation 
