@@ -1,4 +1,25 @@
 
+//this will show/update the numbers in the display 
+function display (value) {
+    const topDisplay = document.getElementById('display');
+    topDisplay.value += value;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                // OLD CODE!
+
 // const display = document.getElementById("display");  // for display at the top
 // const lastExpression = document.getElementById("last-result-display");  // for display at bottom to show the last expression
 // const numberButton = document.getElementsByClassName("number-button");  
