@@ -5,7 +5,11 @@ function display (value) {
     topDisplay.value += value;
 }
 
-
+// this will clear the top display
+function clearDisplay() {
+    const clear = document.getElementsByClassName("clear-button");
+    clear.value = " ";
+}
 
 
 
