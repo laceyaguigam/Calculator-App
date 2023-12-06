@@ -1,14 +1,11 @@
 
 const display = document.getElementById("display");  // for display at the top
-const lastExpression = document.getElementById("last-expression");  // for display at bottom to show the last expression
-const numberButton = document.getElementsByClassName("number-button"); // for each button on the calculator 
-const operatorButton = document.getElementsByClassName("operator-button"); // for each button on the calculator 
-const clearButton = document.getElementsByClassName("clear-button"); // for each button on the calculator 
-const equalButton = document.getElementsByClassName("equal-button"); // for each button on the calculator 
+const lastExpression = document.getElementById("last-result-display");  // for display at bottom to show the last expression
+const numberButton = document.getElementsByClassName("number-button");  
+const operatorButton = document.getElementsByClassName("operator-button"); 
+const clearButton = document.getElementsByClassName("clear-button"); 
+const equalButton = document.getElementsByClassName("equal-button");
 
-
-
-const expressionDisplay = document.getElementById("last-result-display");  // to show the last expression
 
 let value1 = " "; //variable that will be filled when a number is selected
 let value2 = " "; //variable that will be filled when a number is selected
@@ -79,7 +76,7 @@ function showExpression () {
 
 
 
-
+// not sure if this will be used
 
 switch(value1, value2) {
     case "+":
