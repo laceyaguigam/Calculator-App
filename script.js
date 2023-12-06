@@ -21,8 +21,8 @@ function showDisplay() {
 
 //will also need a function to update the display 
 
-function displayUpdate() {
-
+function displayUpdate(value) {
+    display.value += value;         //not sure if this will work
 }
 
 
