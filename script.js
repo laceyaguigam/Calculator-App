@@ -7,8 +7,8 @@ function display (value) {
 
 // this will clear the top display
 function clearDisplay() {
-    const clear = document.getElementsByClassName("clear-button");
-    clear.value = " ";
+    const topDisplay = document.getElementsById("display");
+    topDisplay.value = " ";
 }
 
 function calculate() {
