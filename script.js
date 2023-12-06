@@ -21,7 +21,7 @@
    localStorage.setItem() --> takes a key-value pair and adds it to local storage
     localStorage.getItem() --> takes a key and returns the corresponding value
 
-const bottomDisplay = document.getElementById('last-result-display');
+
 
 bottomDisplay.innerText = localStorage.getItem('?')
 
@@ -69,7 +69,11 @@ buttons.forEach((button) => {
     //needs to use local storage
 
 
-
+        //this doesnt work, thought it worked like top display
+function bottomDisplay (value) {
+    const bottomDisplay = document.getElementById('last-result-display');
+    bottomDisplay.value += value;
+}
 
 
 
