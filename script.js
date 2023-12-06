@@ -8,6 +8,13 @@ let value1 = " "; //variable that will be filled when a number is selected
 let value2 = " "; //variable that will be filled when a number is selected
 let result = " "; // this will be the answer to the expression
 
+
+
+
+
+
+
+
 // show numbers after pressed 
     // id = display
 
