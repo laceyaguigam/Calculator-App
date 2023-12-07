@@ -63,3 +63,9 @@ h2 {
 .full-width {
 	width: 600px;
 }
+
+#last-result-display {
+	width: 600px;
+	height: 200px;
+	border-style: none;
+}
