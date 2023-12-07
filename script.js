@@ -23,7 +23,7 @@
 
 
 
-// bottomDisplay.innerText = localStorage.getItem('?')
+
 
 
 //this will show/update the numbers in the display 
@@ -46,7 +46,11 @@ function calculate() {
     } catch (error) {
         topDisplay.value = "Error";
     }
+    // topDisplay.value = localStorage.getItem('display');
 }
+
+
+
 
 //this sets up the buttons 
 
@@ -57,7 +61,9 @@ buttons.forEach((button) => {
         if (button.textContent === "C") {
             clearDisplay();
         } else if (button.textContent === "=") {
+             bottomDisplay();
             calculate();
+           
         } else {
             display(button.textContent);
         }
@@ -65,11 +71,24 @@ buttons.forEach((button) => {
 });
 
 
+
+
+
+
 //this is the bottom display 
     //needs to use local storage
 
 
-        //this doesnt work, thought it worked like top display
+function bottomDisplay () {
+    let bottom = document.getElementById('display').value;
+    document.getElementById('last-result-display').value = bottom;
+};
+
+
+
+
+
+        //this doesn't work, thought it worked like top display
 // function bottomDisplay (value) {
 //     let lastExpression = document.getElementById('last-result-display');
 //    let topDisplay = document.getElementById("display");
