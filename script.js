@@ -14,14 +14,6 @@
 
     // re-enable buttons --> button.removeAttribute("disabled");
 
- // You should keep track of the last expression and the result of the last expression, which should persist after a page refresh.
-
- // You may choose to use local or session storage for this.
-
-//    localStorage.setItem() --> takes a key-value pair and adds it to local storage
-//     localStorage.getItem() --> takes a key and returns the corresponding value
-
-
 
 
 
@@ -38,17 +30,19 @@ function clearDisplay() {
     topDisplay.value = " ";
 }
 
+
+
 //this calculates the expressions 
 function calculate() {
     const topDisplay = document.getElementById('display');
     try {
         topDisplay.value = eval(topDisplay.value);  //eval will calculate the expression for you!
+        localStorage.setItem('topDisplay', topDisplay.value)
     } catch (error) {
         topDisplay.value = "Error";
     }
+localStorage.getItem('topDisplay');
 }
-
-
 
 
 //this sets up the buttons 
@@ -62,7 +56,6 @@ buttons.forEach((button) => {
         } else if (button.textContent === "=") {
             bottomDisplay();
             calculate();
-           
         } else {
             display(button.textContent);
         }
@@ -70,17 +63,15 @@ buttons.forEach((button) => {
 });
 
 
-
-
-
-
 //this is the bottom display 
-    //needs to use local storage
+ 
 
 
 function bottomDisplay () {
     let bottom = document.getElementById('display').value;
     document.getElementById('last-result-display').value = bottom;
+    localStorage.setItem('display', display.value)
+    localStorage.getItem('display');
 };
 
 
