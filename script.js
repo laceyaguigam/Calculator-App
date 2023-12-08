@@ -46,7 +46,6 @@ function calculate() {
     } catch (error) {
         topDisplay.value = "Error";
     }
-    // topDisplay.value = localStorage.getItem('display');
 }
 
 
@@ -61,7 +60,7 @@ buttons.forEach((button) => {
         if (button.textContent === "C") {
             clearDisplay();
         } else if (button.textContent === "=") {
-             bottomDisplay();
+            bottomDisplay();
             calculate();
            
         } else {
