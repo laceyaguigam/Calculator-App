@@ -69,14 +69,54 @@ buttons.forEach((button) => {
 
 function bottomDisplay () {
     let bottom = document.getElementById('display').value;
+    let display = document.getElementById('last-result-display')
+
     document.getElementById('last-result-display').value = bottom;
-    localStorage.setItem('display', display.value)
-    localStorage.getItem('display');
+       localStorage.setItem('display', display.value);
+        localStorage.getItem('display');
 };
 
 
 
 
+
+// working on the code for the buttons 
+
+
+
+// switch () {
+//     case ():
+//         break;
+//     case ():
+//         break;
+//     case ():
+//         break;
+//     case ():
+//         break;
+//     case ():
+//         break;
+//     case ():
+//         break;
+//     default:
+// }
+
+
+
+
+
+// function disableButton () {
+//     const topDisplay = document.getElementById('display');
+//  if (topDisplay == "00") {
+
+//  } else if (operator before number ) {
+
+//  } else (numbers disabled after = and re-eneabled after clear)
+
+
+
+
+
+// };
 
 
 
