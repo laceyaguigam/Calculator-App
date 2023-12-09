@@ -78,13 +78,6 @@ function bottomDisplay () {
 
 
 
-        //this doesn't work, thought it worked like top display
-// function bottomDisplay (value) {
-//     let lastExpression = document.getElementById('last-result-display');
-//    let topDisplay = document.getElementById("display");
-//      lastExpression =  topDisplay.value;
-//     // lastExpression.value += value;
-// }
 
 
 
