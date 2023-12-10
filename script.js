@@ -55,7 +55,7 @@ buttons.forEach((button) => {
             clearDisplay();
         } else if (button.textContent === "=") {
             bottomDisplay();
-            calculate();
+            calculate();     
         } else {
             display(button.textContent);
         }
@@ -76,9 +76,9 @@ function bottomDisplay () {
        
 };
 
-
+//ask for help doesnt work
 window.onload = (event) => {
-    display.value = localStorage.getItem('display');
+    display.value = localStorage.getItem("display");
 }
 
 
@@ -86,39 +86,25 @@ window.onload = (event) => {
 
 
 
-// switch () {
-//     case ():
-//         break;
-//     case ():
-//         break;
-//     case ():
-//         break;
-//     case ():
-//         break;
-//     case ():
-//         break;
-//     case ():
-//         break;
-//     default:
-// }
+function disableButtons () {
+    const buttons = document.querySelectorAll(".calculator-button");
+
+    if (no operator before number) {
+
+    } else if (no double 0) {
+
+    } else if( disable button when =) {
+        button.setAttribute("disabled", "");
+    } else (re-enable for clear) {
+        button.removeAttribute("disabled");
+    }
+};
 
 
 
 
 
-// function disableButton () {
-//     const topDisplay = document.getElementById('display');
-//  if (topDisplay == "00") {
-
-//  } else if (operator before number ) {
-
-//  } else (numbers disabled after = and re-eneabled after clear)
-
-
-
-
-
-// };
+ 
 
 
 
