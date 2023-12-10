@@ -69,15 +69,17 @@ buttons.forEach((button) => {
 
 function bottomDisplay () {
     let bottom = document.getElementById('display').value;
-    let display = document.getElementById('last-result-display')
+    let display = document.getElementById('last-result-display');
 
     document.getElementById('last-result-display').value = bottom;
        localStorage.setItem('display', display.value);
-        localStorage.getItem('display');
+       
 };
 
 
-
+window.onload = (event) => {
+    display.value = localStorage.getItem('display');
+}
 
 
 // working on the code for the buttons 
