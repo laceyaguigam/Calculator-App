@@ -63,6 +63,7 @@ buttons.forEach((button) => {
 });
 
 
+
 //this is the bottom display 
  
 
@@ -86,31 +87,76 @@ window.onload = (event) => {
 
 
 
-function disableButtons () {
-    const buttons = document.querySelectorAll(".calculator-button");
+// function disableButtons () {
+//     const buttons = document.querySelectorAll(".calculator-button");
 
-    if (no operator before number) {
+//     if (no operator before number) {
 
-    } else if (no double 0) {
+//     } else if (no double 0) {
 
-    } else if( disable button when =) {
+//     } else if( disable button when =) {
+//         button.setAttribute("disabled", "");
+//     } else (re-enable for clear) {
+//         button.removeAttribute("disabled");
+//     }
+// };
+
+
+
+
+
+ 
+
+
+button.onclick = function () {
+    if (button.textContent === "+" || button.textContent === "-" || button.textContent === "*" || button.textContent === "%") {
+
+    } else if (button.textContent === "0") {
+
+    } else if (button.textContent === "=") {
         button.setAttribute("disabled", "");
-    } else (re-enable for clear) {
+    } else if (button.textContent === "C") {
         button.removeAttribute("disabled");
-    }
+    } 
 };
 
 
 
-
-
  
+input.addEventListener("input", () => {
+    if (input.value.length > 0 ) {
+        button.disabled = false;
+    } else {
+        button.disabled = true;
+    }
 
 
+});
 
+disable () {
+    switch (buttonDisable) {
+        case '0': 
+            document.querySelectorAll(".calculator-button").disabled = 'true'
+        break;
+        case '+': 
 
+        break;
+        case '-': 
 
+        break;
+        case '*': 
 
- 
+        break;
+        case '%': 
 
-
+        break;
+        case '=': 
+            document.querySelectorAll(".calculator-button").disabled = 'true'
+        break;
+        case 'C': 
+            document.querySelectorAll(".calculator-button").disabled = 'false'
+        break;
+        default:
+            return
+    }
+}
